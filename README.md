@@ -80,3 +80,7 @@ rice-classification/
 - [ ] **Transfer Learning** ile model performansını iyileştirme
 - [ ] **Real-time Classification** için web arayüzü geliştirme
 - [ ] **Data Augmentation** çeşitliliğini artırma
+
+#linkler
+https://www.kaggle.com/code/marskafas/rice-dataset
+https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset
