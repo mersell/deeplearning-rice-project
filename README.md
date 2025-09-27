@@ -22,24 +22,25 @@ Bu proje, Global AI Hub Bootcamp kapsamında geliştirilmiş bir pirinç görün
 
 ### Confusion Matrix  ve metrık Analizi
 Confusion Matrix:
-[[1496    0    2    2    0]
- [   0 1495    0    5    0]
+[[1494    0    5    1    0]
+ [   0 1497    0    3    0]
  [   0    0 1500    0    0]
- [   4    2    3 1491    0]
- [  42    0    0    0 1458]]
+ [   8    4    3 1485    0]
+ [ 123    0    0    7 1370]]
 
 Classification Report:
               precision    recall  f1-score   support
 
-     Arborio       0.97      1.00      0.98      1500
+     Arborio       0.92      1.00      0.96      1500
      Basmati       1.00      1.00      1.00      1500
-      Ipsala       1.00      1.00      1.00      1500
-     Jasmine       1.00      0.99      0.99      1500
-   Karacadag       1.00      0.97      0.99      1500
+      Ipsala       0.99      1.00      1.00      1500
+     Jasmine       0.99      0.99      0.99      1500
+   Karacadag       1.00      0.91      0.95      1500
 
-    accuracy                           0.99      7500
-   macro avg       0.99      0.99      0.99      7500
-weighted avg       0.99      0.99      0.99      7500
+    accuracy                           0.98      7500
+   macro avg       0.98      0.98      0.98      7500
+weighted avg       0.98      0.98      0.98      7500
+
 
 
 **Yorum**: Tüm sınıflarda dengeli ve yüksek performans gözlemlenmiştir.
@@ -78,7 +79,6 @@ rice-classification/
 
 ### Yapılabilecek Gelecek Çalışmalar
 - [ ] **Transfer Learning** ile model performansını iyileştirme
-- [ ] **Real-time Classification** için web arayüzü geliştirme
 - [ ] **Data Augmentation** çeşitliliğini artırma
 
 #linkler
